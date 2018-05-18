@@ -45,3 +45,11 @@ p {
   content: "\00a9  Broadway";
   font-size: 11px;
 }
+
+li a:link {
+  color: white;
+}
+
+nav a:visited {
+  color:white;
+}
