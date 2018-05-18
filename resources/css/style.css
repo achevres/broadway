@@ -1,0 +1,47 @@
+html {
+  font-family: Helvetica, sans-serif;
+  text-align: center;
+  color: black;
+}
+
+#header {
+  font-size: 70px;
+}
+
+.landing {
+  color: white;
+  background-image: url(../images/the-flatiron-building.png);
+}
+
+nav p {
+  font-size: 18px;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+h3 {
+  font-size: 23px;
+}
+
+p {
+  font-size: 14px;
+}
+
+.footer {
+  background-color: dimgrey;
+  color: white;
+  list-style: none;
+  font-size: 18px;
+  text-align: left;
+}
+
+.footer li {
+  display: inline;
+}
+
+.footer::before{
+  content: "\00a9  Broadway";
+  font-size: 11px;
+}
